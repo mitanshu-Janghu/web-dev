@@ -5,6 +5,7 @@ import Button from './button.jsx'
 import State from './State.jsx'
 import Count from './Count.jsx'
 import Props from './Props.jsx'
+import Onchange from './onchange.jsx'
 const Apple = () => {
   return (
     <div>To do</div>
@@ -20,7 +21,9 @@ const App = () => {
     <Button/>
     <State/>
     <Count/>
+    <Onchange/>
     <Props name={name}/>
+    
     </>
   )
 }
