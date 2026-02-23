@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Prediction</title>
+</head>
+<body>
+
+    <h2>Student Performance Prediction</h2>
+
+    <form action="/predict" method="POST">
+
+        <label>Hours Studied:</label><br>
+        <input type="number" name="hours_studied" required><br><br>
+
+        <label>Attendance (%):</label><br>
+        <input type="number" name="attendance" required><br><br>
+
+        <input type="submit" value="Pass">
+
+    </form>
+
+    {% if prediction_text %}
+        <h3>{{ prediction_text }}</h3>
+    {% endif %}
+
+</body>
+</html>
