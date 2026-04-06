@@ -1,0 +1,15 @@
+node_modules
+.next
+dist
+coverage
+.DS_Store
+frontend/node_modules
+frontend/.next
+backend/node_modules
+backend/uploads/*
+backend/outputs/*
+!backend/uploads/.gitkeep
+!backend/outputs/.gitkeep
+.env
+frontend/.env.local
+backend/.env
